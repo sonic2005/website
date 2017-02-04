@@ -22,7 +22,7 @@ export default class Home extends Component {
     return (
       <div>
         <PageHeading
-          title="Welcome!"
+          title="Welcome to Sonic's website!!!!!!!"
         />
         <ButtonGroup style={{marginTop: '1em'}}>
           <Button
