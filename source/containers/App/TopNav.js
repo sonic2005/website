@@ -6,7 +6,7 @@ import {Navbar, Nav} from 'reactstrap';
 export default function TopNav({location}) {
   return (
     <Navbar color="faded" light toggleable>
-      <Link to="/" className="navbar-brand">Minecraft</Link>
+      <Link to="/" className="navbar-brand">Games</Link>
       <Nav navbar>
         {tabs.map((tab, index) => (
           <li

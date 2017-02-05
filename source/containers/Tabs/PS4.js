@@ -1,20 +1,20 @@
-import React, {Component} from 'react';
+pimport React, {Component} from 'react';
 import PageHeading from 'components/PageHeading';
 import Container from 'components/Container';
 import Table from 'components/Table';
 import {connect} from 'react-redux';
 
 
-class Commands extends Component {
+class PS4 extends Component {
   render() {
-    const {commands} = this.props;
+    const {ps4} = this.props;
     return (
       <div>
         <PageHeading
-          title="Minecraft Commands"
+          title="PS4 Games!!!"
         />
         <Container style={{marginTop: '2rem'}}>
-          <Table {...commands} />
+          <Table {...ps4} />
         </Container>
       </div>
     )
